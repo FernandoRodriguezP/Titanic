@@ -187,4 +187,4 @@ View(titanicTest)
 titanicOutput <- titanicTest[,c(1,13)]    #Crea el dataframe de salida con las variables Passenger Id y Survived
 View(titanicOutput)
 
-write.table(titanicOutput, file = "output.csv", row.names = FALSE, sep = ",", quote = FALSE)
+write.table(titanicOutput, file = "data/output.csv", row.names = FALSE, sep = ",", quote = FALSE)
